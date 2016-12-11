@@ -1,0 +1,4 @@
+First you have to create a directory called src, and then put your data in this directory. Each class should put in one directory, such 0, 1, 2, 3..., then run simplerename.
+Then create three directory, train, verify and test. run the rebuild.py, and input the percent of train , verify and test like: 70, 15, 15.
+Run binAndCrop to bin and crop the images.
+Finally, run createDataSet.py to create the pkl.gz file.
