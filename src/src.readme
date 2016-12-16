@@ -1,0 +1,15 @@
+There are sevel files in the src directory:
+
+ConvPoolLayer, HiddenLayer,LogisticRegression are
+basic component of the Convolutional neural network, and they are come from theano's Convolutional
+neural network part.
+
+GpuSaveCnnUseDump the file that defined the CNN model, and it can train model just by run it. When
+finished , the parameters will store in the best_model.pkl.
+
+CpuModel is a CNN model, it can create a CPU cnn model use the best_model.pkl
+
+PredictOnCpu can load a CpuModel and test a new picture, when processing the picture, it uses the 
+BinAndCrop and createDataSet.
+
+LoadData is file from theano's demo, it can load data from file like mnist.pkl.gz.
